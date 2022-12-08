@@ -1,0 +1,58 @@
+.student-box{
+    width: 320px;
+    padding: 40px;
+    background: rgb(231, 228, 228);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.student-box h2{
+    margin: 0 0 30px;
+    padding: 0;
+    text-align: center;
+}
+
+.student-box .user-box{
+    position: relative;
+}
+
+.student-box .user-box input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.student-box .btn{
+    display: flex;
+    justify-content: space-around;
+}
+
+.student-box .btn button{
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: .3s;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    border-radius: 3px;
+}
+.student-box button:hover{
+    box-shadow: 0 3px 8px #0003;
+}
+
+.student-box .btn button:nth-child(1) {
+    border-color: #2fd0c0;
+}
+
+.student-box .btn button:nth-child(2) {
+    border-color: #d08a2f;
+}

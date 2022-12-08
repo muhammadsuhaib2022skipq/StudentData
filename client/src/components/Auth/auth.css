@@ -1,0 +1,91 @@
+.main_auth{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 90vh;
+}
+
+.auth{
+	width: 350px;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 5px 20px 50px #000;
+	border-radius: 15px;
+	gap: 2rem;
+}
+
+.f_auth{
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.form_auth {
+	justify-content: center;
+}
+
+.head {
+	font-size: 30px;
+	margin-top: 10px;
+}
+
+.Ainput {
+	width: 50%;
+	height: 10px;
+	justify-content: center;
+	display: flex;
+	margin-top: 10px;
+	margin: 20px auto;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+}
+
+.btn_auth {
+	width: 60%;
+	height: 50px;
+	margin: 10px auto;
+	justify-content: center;
+	display: block;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	transition: .2s ease-in;
+	cursor: pointer;
+    border-radius: 3px;
+} 
+
+.btn_auth:hover{
+	box-shadow: 0 3px 8px rgb(150, 144, 144);
+}
+
+.btn_auth:nth-child(1) {
+	border-color: #14687381;
+}
+
+.btn_auth:nth-child(2) {
+	border-color: #2332de81;
+}
+
+.googleButton{
+	display: flex;
+	max-width: 110px;
+	color: #000;
+	margin-top: 15px;
+	justify-content: center;
+	border-radius: 5px;
+}
+
+.googleButton:hover{
+	background-color: #4d65c3;
+	box-shadow: 5px 2px 5px rgb(173, 170, 170);
+	border-radius: 5px;
+}
+
+
+

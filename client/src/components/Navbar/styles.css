@@ -1,0 +1,46 @@
+.App {
+  background-color: #333;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+  
+.App a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+  
+.site-name {
+  font-size: 2rem;
+}
+
+.link {
+  font-size: 2rem;
+}
+
+.profile_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logout {
+    display: inline-block;
+    color: black;
+    font-size: 16px;
+    transition: .3s;
+    border-radius: 3px;
+    border-color: #d1151581;
+}
+
+.logout:hover {
+  box-shadow: 0 3px 8px rgb(150, 144, 144);
+}

@@ -1,0 +1,30 @@
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2rem;
+  margin-top: 37px;
+  flex-wrap: wrap;
+}
+  
+.form {
+  flex: 0 0 30%;
+  /* max-width: 30%; */
+}
+
+.student {
+  flex: 0 0 50%;
+  /* max-width: 30%; */
+}
+
+@media (max-width: 1024px) {
+  .form {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  
+  .student {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+    
